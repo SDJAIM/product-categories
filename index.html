@@ -6,96 +6,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style/app.css">
+  <link rel="stylesheet" href="app.css">
+  <script type="module" src="./src/index.js"></script>
   <title>Document</title>
   <meta name="description" content="This is a description of the page">
   <meta name="keywords" content="keyword1, keyword2">
 </head>
 <body>
-  <main>
-    <section class="categories">
-      <div class="category">
-        <div class="category-info">
-          <div class="category-title">
-            <h2>brake system</h2>
-          </div>
-          <div class="sub-categories">
-            <ul>
-              <li>electric brakes</li>
-              <li>emergency brakes</li>
-              <li>hydraulic brakes</li>
-              <li>mechanical brakes</li>
-            </ul>
-          </div>
-          <div class="category-link">
-            <a href="#">shop all</a>
-          </div>
-        </div>
-        <div class="category-image">
-          <picture>
-            <source srcset="imagen/brake.webp" media="(min-width: 1920px)">
-            <source srcset="imagen/brake.webp" media="(min-width: 1024px)">
-            <source srcset="imagen/brake.webp" media="(min-width: 768px)">
-            <source srcset="imagen/brake.webp" media="(min-width: 480px)">
-            <img src="imagen/brake.webp" alt="Brakes">
-          </picture>
-        </div>
-      </div>
-      <div class="category">
-        <div class="category-info">
-          <div class="category-title">
-            <h2>lighting parts</h2>
-          </div>
-          <div class="sub-categories">
-            <ul>
-              <li>fog lights</li>
-              <li>turn signals</li>
-              <li>tail lights</li>
-              <li>switches & relays</li>
-            </ul>
-          </div>
-          <div class="category-link">
-            <a href="#">shop all</a>
-          </div>
-        </div>
-        <div class="category-image">
-          <picture>
-            <source srcset="imagen/lighting.webp" media="(min-width: 1920px)">
-            <source srcset="imagen/lighting.webp" media="(min-width: 1024px)">
-            <source srcset="imagen/lighting.webp" media="(min-width: 768px)">
-            <source srcset="imagen/lighting.webp" media="(min-width: 480px)">
-            <img src="imagen/lighting.webp" alt="Lighting">
-          </picture>
-        </div>
-      </div>
-      <div class="category">
-        <div class="category-info">
-          <div class="category-title">
-            <h2>tires & wheels</h2>
-          </div>
-          <div class="sub-categories">
-            <ul>
-              <li>atturo tires</li>
-              <li>moto Metals</li>
-              <li>wheels tires</li>
-              <li>XD wheels</li>
-            </ul>
-          </div>
-          <div class="category-link">
-            <a href="#">Shop All</a>
-          </div>
-        </div>
-        <div class="category-image">
-          <picture>
-            <source srcset="imagen/tires.webp" media="(min-width: 1920px)">
-            <source srcset="imagen/tires.webp" media="(min-width: 1024px)">
-            <source srcset="imagen/tires.webp" media="(min-width: 768px)">
-            <source srcset="imagen/tires.webp" media="(min-width: 480px)">
-            <img src="imagen/tires.webp" alt="Tires">
-          </picture>
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
-</html>
+  <footer-component>
+    <categories-component></categories-component>
+  </footer-component>
